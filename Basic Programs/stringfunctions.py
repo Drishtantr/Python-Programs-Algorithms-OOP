@@ -1,12 +1,17 @@
-s="My name is Dris"
+s="my name is dris"
 # print(s.capitalize())
-# print(s.center(7,"."))
-# print(s.count('p',0,len(s)))
+# print(s.center(30,"."))
+# print(s.count('m',0,len(s)))
     # print(s.encode('base64','strict'))
     # print(p.decode('base64','strict'))
 
-# print(s.endswith('e'))
-# print(s.find("ball"))
+# Str = "this is string example....wow!!!";
+# Str = Str.encode('base64','strict');
+# print "Encoded String: " + Str
+# print "Decoded String: " + Str.decode('base64','strict')
+
+# print(s.endswith('s'))
+# print(s.find("my"))
 # print(s.isalnum())
 # print(s.isalpha())
 # print(s.islower())
@@ -33,6 +38,7 @@ s="My name is Dris"
 # l=[1,2,3,4,5]
 # l1=list(range(10))
 # l.extend(l1)
+# print(l1)
 # print(l)
 
 # li=['a','c']
