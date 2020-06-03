@@ -9,8 +9,9 @@ def logic(my_input):
     elif my_input.startswith('x')==False:
         for i in range(len(my_input)):
             if my_input[i]=='x':
-                new=my_input.replace('x','cks')
+                new=my_input.replace('x','ecks')
         return new
+   
     #x ray
 
     else:
@@ -18,7 +19,7 @@ def logic(my_input):
         for i in range(len(p)):
             if p[i]=='x':
                 p.pop(i)
-                p.insert(i,'eks')
+                p.insert(i,'cks')
         j=" "
         new=j.join(p)
         return new
